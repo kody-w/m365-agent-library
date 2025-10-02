@@ -1,0 +1,13 @@
+{
+  "name": "meeting-coordinator",
+  "version": "1.0.0",
+  "description": "TypeSpec declarative agent for Microsoft 365 Copilot",
+  "scripts": {
+    "build": "tsp compile ."
+  },
+  "dependencies": {
+    "@typespec/compiler": "latest",
+    "@typespec/http": "latest",
+    "@microsoft/typespec-m365-copilot": "latest"
+  }
+}
